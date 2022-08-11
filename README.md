@@ -1,12 +1,13 @@
 # Preview 
 
-![image-20220811214757193](C:\Users\HP\AppData\Roaming\Typora\typora-user-images\image-20220811214757193.png)
+![image-20220811214757193](https://user-images.githubusercontent.com/53901191/184151615-fb7669da-6b67-4141-91a1-e710dfa05fcf.png)
 
 ### Start a new project
 
 Open Projucer, and start a new project named "Reverb". Remember to tick juce-dsp in Module so that we are able to use dsp class in JUCE.
 
-![image-20220725233002784](C:\Users\HP\AppData\Roaming\Typora\typora-user-images\image-20220725233002784.png)
+![image-20220725233002784](https://user-images.githubusercontent.com/53901191/184151732-c1ba15a9-c977-40fb-b2a9-e01bfbd7b1dd.png)
+
 
 # DSP
 
