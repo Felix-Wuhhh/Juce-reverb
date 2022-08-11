@@ -1,3 +1,11 @@
+#Contents:
+1. Source file -- all the program code is here. You can download juce and the source file to run 
+2. Chinese version tutorial
+3. Readme -- a tutorial and mannual in the front page
+4. Reverb tutorial and manual --  a tutorial and mannual in PDF format
+5. Reverb app -- a zip file with au, vst3, and standalone plugins which can be run on your DAWs
+
+
 # Reverb tutorial and mannual
 # Preview 
 
