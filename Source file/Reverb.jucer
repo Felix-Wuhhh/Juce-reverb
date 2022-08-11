@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="i73vIt" name="Reverb" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+  <MAINGROUP id="aVvkh6" name="Reverb">
+    <GROUP id="{D2A76931-E694-9F35-5DEA-85765D44C045}" name="Source">
+      <FILE id="JRDgnD" name="CMakeLists.txt" compile="0" resource="1" file="Source/CMakeLists.txt"/>
+      <FILE id="gPfw4P" name="CustomLookAndFeel.cpp" compile="1" resource="0"
+            file="Source/CustomLookAndFeel.cpp"/>
+      <FILE id="YyRwFx" name="CustomLookAndFeel.h" compile="0" resource="0"
+            file="Source/CustomLookAndFeel.h"/>
+      <FILE id="hfChG7" name="NameLabel.h" compile="0" resource="0" file="Source/NameLabel.h"/>
+      <FILE id="JPmfju" name="RotarySlider.cpp" compile="1" resource="0"
+            file="Source/RotarySlider.cpp"/>
+      <FILE id="xP6eV8" name="RotarySlider.h" compile="0" resource="0" file="Source/RotarySlider.h"/>
+      <FILE id="tvumO5" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="RGmskS" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="gwoaM0" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="yUHzJ4" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="TaroReverbV2"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="TaroReverbV2"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../Users/taropie/Documents/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../Users/taropie/Documents/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../Users/taropie/Documents/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../../Users/taropie/Documents/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../Users/taropie/Documents/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../Users/taropie/Documents/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../Users/taropie/Documents/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../Users/taropie/Documents/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../Users/taropie/Documents/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../Users/taropie/Documents/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../Users/taropie/Documents/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../Users/taropie/Documents/JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../../../Users/taropie/Documents/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <OSX/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>
