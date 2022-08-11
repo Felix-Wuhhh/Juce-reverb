@@ -1,4 +1,4 @@
-#Contents:
+# Contents:
 1. Source file -- all the program code is here. You can download juce and the source file to run 
 2. Chinese version tutorial
 3. Readme -- a tutorial user guide down below
