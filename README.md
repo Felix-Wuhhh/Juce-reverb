@@ -3,7 +3,16 @@
 2. Chinese version tutorial
 3. Readme -- a tutorial user guide down below
 4. Reverb tutorial and manual --  a tutorial and user guide in PDF format
-5. Reverb app -- a zip file with au, vst3, and standalone plugins which can be run on your DAWs
+
+#To Generate AU and VST3 files 
+First, to download JUCE, link: https://juce.com/get-juce/download.
+Second, download the source file in this page.
+Third, run it on compilers like Xcode.
+Fourth, the Standalone, AU and VST3 file will be generate as the following path shows, and you need to click on the .component and .vst3 to show their original file. However, DAWs like Logic Pro will usually detect it automatically.
+
+![E4DF6E58-1239-4ABE-9C59-064A0B466E79](https://user-images.githubusercontent.com/53901191/186202582-a9196597-4d35-48ad-964f-b354f940a036.jpeg)
+![6EAD6FCF-3AA6-41A7-B522-2B1B47C7DB4C](https://user-images.githubusercontent.com/53901191/186204241-7144ae94-765b-4cd5-97df-61e0cdb4bcf5.jpeg)
+
 
 
 # Reverb tutorial and mannual
