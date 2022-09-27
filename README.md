@@ -135,7 +135,7 @@ class SimpleReverbAudioProcessor : public juce::AudioProcessor
 {
 ・・・
 private:
-    juce::dsp::Reverb::Parameters params;
+    	juce::dsp::Reverb::Parameters params;
  	juce::dsp::Reverb leftReverb, rightReverb;
  //==========================================================================
 ====
@@ -158,7 +158,7 @@ void SimpleReverbAudioProcessor::prepareToPlay (double sampleRate, int samplesPe
 }
 ```
 
-Third, we design how the sound will be processed. Like I mentioned before, we need to combine dry/wet level as a rotary knob, so we will use (1-value of wet) to set up the value of dry. This is how is works:
+Third, we design how the sound will be processed. Like I mentioned before, we need to combine dry/wet level as a rotary knob, so we will use (1-value of wet) to set up the value of dry. This is how it works:
 
 ```c++
 void SimpleReverbAudioProcessor::processBlock (juce::AudioBuffer<float>& buffer,
